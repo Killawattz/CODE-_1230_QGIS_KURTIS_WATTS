@@ -1,8 +1,38 @@
-body {
-	background: #FFFFFF;
-	color: #001f3f;
-	text-align:center;
-	font-family:Helvetica;
-	font-size:48px;
+body: {
+	margin: 0;
 }
 
+
+
+
+header {
+	background: grey;
+	color: white;
+	margin: 0;
+	padding: 15px 15px 0 15px;
+}
+
+
+header h1 {
+	margin: 0;
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0 0 0 40px;
+	display: inline;
+}
+
+nav ul li { 
+	background: black;
+	color: white;
+	display: inline-block;
+	list-style-type: none: 
+	padding: 5px 15px;
+	margin: 0;
+ }
+
+ nav ul li a { 
+ 	color: white;
+  }
