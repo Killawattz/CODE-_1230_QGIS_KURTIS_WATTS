@@ -41,8 +41,12 @@ nav ul li {
   .col {
   	background: #222;
   	float: left;
-  	margin: 1%
+  	margin: .5%
   	width: 33%;
+  	color: white;
+  	font-size: 48px;
+  	padding: 10px .5px;
+
   }
 
   footer {
