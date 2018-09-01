@@ -2,9 +2,6 @@ body: {
 	margin: 0;
 }
 
-
-
-
 header {
 	background: grey;
 	color: white;
@@ -35,4 +32,20 @@ nav ul li {
 
  nav ul li a { 
  	color: white;
+  }
+
+  .row{
+
+  }
+
+  .col {
+  	background: #333;
+  	padding: 20PX;
+  	margin: 1%
+  	float: left;
+  	width: 33%;
+  }
+
+  footer {
+  	clear: both;
   }
