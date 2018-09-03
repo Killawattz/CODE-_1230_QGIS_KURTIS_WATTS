@@ -1,12 +1,19 @@
-body: {
+body {
 	margin: 0;
 }
 
 header {
-	background: grey;
-	color: white;
+	color: black;
 	margin: 0;
 	padding: 15px 15px 0 15px;
+	font-style: Helvetica;
+	font size: 60px
+}
+
+h1 {
+	font-style: Helvetics;
+	font size: 40px
+
 }
 
 
@@ -15,33 +22,33 @@ header h1 {
 	display: inline;
 }
 
-nav ul{
+nav ul {
 	margin: 0;
 	padding: 0 0 0 15px;
 	display: inline;
 }
 
 nav ul li { 
-	background: black;
-	color: white;
+	color: black;
 	display: inline-block;
 	list-style-type: none: 
 	padding: 5px 15px;
 	margin: 0;
+	font-style: Helvetica; 
  }
 
  nav ul li a { 
  	color: white;
   }
 
-  .row{
+  .row {
 
   }
 
   .col {
   	background: #222;
   	float: left;
-  	margin: .5%
+  	margin: .5%;
   	width: 80%;
   	color: white;
   	font-size: 48px;
