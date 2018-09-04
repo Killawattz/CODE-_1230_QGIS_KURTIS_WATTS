@@ -1,54 +1,21 @@
 body {
 	margin: 0;
-}
-
-header {
-	color: black;
-	margin: 0;
-	padding: 15px 15px 0 15px;
-	font-family: "Helvetica",sans-serif;
-	font size: 60px
-}
-
-h1 {
-	font-style: Helvetica;
-	font size: 40px
-
+	font-family: Ariel, Helvetica, sans-serif;
+	background: #fff;
+	color: #333;
+	font-size: 1.1em;
+	line-height: 1.5;
 }
 
 
-header h1 {
-	margin: 0;
-	display: inline;
-}
 
-nav ul {
-	margin: 0;
-	padding: 0 0 0 15px;
-	display: inline;
-}
 
-nav ul li { 
-	color: black;
-	display: inline-block;
-	list-style-type: none: 
-	padding: 5px 15px;
-	margin: 0;
-	font-style: Helvetica; 
- }
 
- nav ul li a { 
- 	color: black;
-  }
 
-  .row {
+.wrapper{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em
+	grid-auto-row: minmax(100px, auto);
 
-  }
 
-  .col {
-
-  }
-
-  footer {
-  	clear: both;
-  }
