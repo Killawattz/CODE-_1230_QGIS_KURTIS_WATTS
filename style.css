@@ -81,6 +81,13 @@ main {
 	margin-bottom: 0;
 	color: var(--light);
 }
+
+.portal {
+	display: grid;
+	grid-gap: 20px; 
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 40% 
+}
 /*.wrapper{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
