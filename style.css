@@ -9,19 +9,19 @@ body {
 
 
 
+.main-nav {
+	display: grid;
+	grid-template-columns: repeat 4, 1fr 
 
+}
 
 
 .wrapper{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: auto 1fr 
 	grid-gap: 1em;
 	grid-auto-rows: minmax(100px, auto);
 
 
-.photo > img {
-  object-fit: cover;
-  width: 100%
-  max-height: 100%;
+
  ] 
