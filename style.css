@@ -65,7 +65,7 @@ main {
 .showcase {
 	grid-area: showcase;
 	min-height: 600px;
-	min-width: 1200px;
+	min-width: 1400px;
 	background: url(https://images.pexels.com/photos/671557/pexels-photo-671557.jpeg?cs=srgb&dl=adult-adventure-climber-671557.jpg&fm=jpg);
 	background-size: cover;
 	background-position: center;
