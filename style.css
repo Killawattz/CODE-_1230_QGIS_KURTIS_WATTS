@@ -1,3 +1,11 @@
+:root {
+	--primary: #ddd;
+	--dark: #333;
+	--light: #fff;
+	--shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+
 body {
 	margin: 0;
 	font-family: Ariel, Helvetica, sans-serif;
@@ -7,21 +15,44 @@ body {
 	line-height: 1.5;
 }
 
-
-
-.main-nav {
-	display: grid;
-	grid-template-columns: repeat 4, 1fr 
+.wrapper .main-nav ul {
+	text-align: center;
+	font-size: 40px;
 
 }
 
+.main-nav a {
+	background: var(--primary);
+	display: block;
+	text-decoration: none; 
+	padding: 0.8rem;
+	text-align: center; 
+	color: var(--dark);
+	text-transform: uppercase;	
+
+}
+
+.main-nav ul{
+	display: grid;
+	grid-gap:20px;
+	list-style: none;
+	display: inline;
+	padding: 0;
+	grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+
+.main-nav ul li { 
+	color: black;
+	display: inline-block;
+	list-style-type: none:  
+ }
 
 .wrapper{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 1em;
-	grid-auto-rows: minmax(100px, auto);
+	grid-auto-rows: minmax(100px, auto; 
 
+{
 
-
- ] 
+}
