@@ -7,7 +7,7 @@
 
 
 body {
-	margin: 0;
+	margin: 30px 50px;
 	font-family: Ariel, Helvetica, sans-serif;
 	background: #fff;
 	color: #333;
@@ -26,7 +26,8 @@ body {
 	grid-template-columns: 1fr 1fr;
 }
 
-.photo img{
+.photo img {
+
 	max-width: 40%;
 
 }
@@ -51,9 +52,8 @@ body {
 	display: grid;
 	grid-gap:20px;
 	list-style: none;
-	display: inline;
 	padding: 0;
-	grid-template-columns: 1fr 1fr 1fr 1fr;  
+	grid-template-columns: repeat(4, 1fr);  
 }
 
 
