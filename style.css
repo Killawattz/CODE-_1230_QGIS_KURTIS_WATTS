@@ -33,7 +33,7 @@ main h1 {
 
 .photo img {
 
-	max-width: 100%;
+	max-width: 80%;
 
 }
 
@@ -50,7 +50,7 @@ main h1 {
 
 .main-nav a:hover {
 	background: var(--hover); 
-	color: var(--light);
+	color: var(--dark);
 }
 
 .main-nav ul{
