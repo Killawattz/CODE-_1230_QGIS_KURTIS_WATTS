@@ -35,8 +35,10 @@ main h1 {
 .photo img {
 
 	max-width: 100%;
-	
+}
 
+.stuff {
+	max-width: 100%;
 }
 
 .main-nav a {
