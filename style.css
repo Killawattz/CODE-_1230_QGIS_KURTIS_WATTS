@@ -33,7 +33,8 @@ main h1 {
 
 .photo img {
 
-	max-width: 80%;
+	max-width: 100%;
+	min-height: 80%
 
 }
 
